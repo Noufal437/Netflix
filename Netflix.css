@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+     background-color: rgb(39, 33, 33);   
+ }
+ 
+ .logo{
+     width: 15%;
+     padding-left: 2cm;
+ }
+ 
+     .btn{
+     padding: 10px;
+     color:#fff;
+     background-color:#e50914;
+     border-radius: 5%;
+     font-style:solid;
+     text-decoration: none;
+     cursor:pointer;
+     
+ }
+ 
+ .head{
+ 
+     padding: 10px 15px;
+    
+     height: 50px;
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ select{
+     margin-left:60% ;
+     border-color:gray;
+     color: #fff;
+     border-radius: 5%;
+     background-color: transparent;
+     padding: 10px 15px;   
+ }
+ 
+ .content{
+     color: #fff;
+     position: absolute;
+     margin-top: 12%;
+     margin-left: 15%;
+ }
+ 
+ .content h1{
+     font-size:3rem;
+     font-weight: 800;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ 
+ .content h3{
+     
+     text-align: center;
+     line-height: 0%;
+     font: 1.5em sans-serif;
+     
+     
+ }
+ 
+ .content p{
+     font: 1.2em sans-serif;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 0%;
+     padding: 20px;
+ }
+ 
+ .mail{
+    
+     
+     
+     
+     display: flex;
+     
+    justify-content: center;
+
+     
+     
+ }
+ 
+ .mail input{
+    flex: 1;
+    max-width: 300px;
+    border-color: rgb(133, 127, 127);
+    color: #fff;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 20px;
+     margin-right: 10px;
+     background-color:transparent;
+     
+     
+    
+     
+ }
+ 
+ .email-button{
+     
+     background-color: #e50914;
+     color: #fff;
+     font-size: larger;
+     font-weight: bold;
+     padding: 6px 40px;
+     border-radius: 10px;
+     border:0;
+     
+ }
+ 
+
+ 
+ .main{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background:rgba(0, 0, 0, 0.6) url(imagenet/IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+     background-blend-mode: darken;
+     height: 100vh;
+     width: 100%;
+ }
+ 
+  .sec-body{
+      width: 100%;
+     height: 435px;
+     border-top: 10px;
+     background-color: black;
+     color: #fff;
+     margin-top: 8px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+   } 
+   .text-1{
+    width: 100%;
+    height: 50%;
+    padding-left: 120px;
+    padding-top: 50px;
+    
+    
+}
+
+   .text-1 h1{
+     font-size: 3.125rem;
+     letter-spacing: 2px;
+     font-family: Arial, Helvetica, sans-serif;
+     
+     padding-top: 50px;
+     
+ }
+ 
+ .text-1 p{
+     float: left;
+ 
+     font-size: 1.55rem;
+     font-family: Arial, Helvetica, sans-serif;
+     padding-top: 18px;
+ }
+ 
+ .vid{
+     height: 336px;
+     margin-right: 80px;
+     padding-top: -25px;
+ }
+ 
+ .video{
+     margin-left: 121px;
+     height:382px ;
+     width: 390px;
+     position: absolute;
+ }
+ 
+ .tv{
+     height: 400px;
+     margin-left: 50px;
+     margin-right: 37px;
+     position: relative;
+ }
+ 
+ .third-body{
+  width: 100%;
+  height: 550px;
+  border-top: 10px;
+  background-color: black;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+ }
+ 
+ .kid{
+     height: 350px;
+     width: 510px;
+     margin-left: 45px;
+     padding-top: 50px;
+     position: absolute;
+     
+ }
+ 
+ .box{
+     align-items: center;
+     background: #000;
+     border: 2px solid hsla(0,0%,100%,.25);
+     border-radius: 0.75em;
+     bottom: 8%;
+     display: flex;
+     left: 50%;
+     margin: 0 auto;
+     min-width: 15em;
+     padding: 0.25em 0.65em;
+     box-shadow: 0 0 2em 0 #000;
+     position: relative;
+     transform: translateX(-50%);
+     width: 60%;
+ }
+ 
+ .box1{
+     border: 2px;
+     border-color: #fff;
+     background-color: black;
+     
+     height: 95px;
+     width: 340px;
+     position: absolute;
+     margin-top: 18rem;
+     margin-left: 8rem;
+     
+     border-radius: 20px;
+ }
+ 
+ .inner-pic{
+     display: flex;
+     flex-direction: row;
+     margin-left: 13px;
+     margin-top: 9px;
+     height: 76px;
+     width: 60px;
+ }
+ 
+ .text-2{
+     color: #fff;
+     position: absolute;
+     margin-left: 90px;
+     margin-top: -59px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+ }
+ 
+ .text-3{
+     color: rgb(9, 46, 255);
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: 90px;
+     margin-top: -35px;
+ }
+ 
+ .downloadpic{
+     height: 42px;
+     width: 40px;
+     margin-top: -60px;
+     margin-left: 280px;   
+ }
+ 
+ .third-main-text{
+     display: flex;
+     flex-direction: column;
+     margin-left: 690px;
+     margin-top: 130px;
+      color: #fff;
+ }
+ 
+ .text-4{
+ color: #fff;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 3rem;
+ }
+ 
+ .text-5{
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: 18px;
+     font-size: 26px;
+ }
+ 
+ .forth-body{
+     width: 100%;
+  height: 540px;
+  border-top: 10px;
+  background-color: black;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+ }
+ 
+ .forth-main-text{
+     color: #fff;  
+     margin-left: 140PX;
+     margin-top: 230px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .text-6{
+     font-size: 52px;
+ }
+ 
+ .text-7{
+     font-size: 26px;
+     padding-top: 23px;
+ }
+ 
+ .sec-tv{
+     height: 505px;
+     width: 537px;
+     margin-left: 41px;
+     margin-top: 0px;
+ }
+ 
+ .fifth-body{
+     width: 100%;
+     height: 435px;
+     border-top: 10px;
+     background-color: black;
+     margin-top: 8px;
+     display: flex;
+     flex-direction: row;
+     position: relative;
+ }
+ 
+ .child-pic{
+     height: 340px;
+     margin-left: 70px;
+     margin-top: 53px;
+ }
+ .fifth-text{
+     color: #fff;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: 99px;
+     margin-top: 98px;
+ }
+ .text-8{
+     font-size: 55px;
+ }
+ .text-9{
+     font-size: 25px;
+     padding-top: 16px;
+ }
+ 
+ .sixth-body{
+     width: 100%;
+     height: 945px;
+     border-top: 10px;
+     background-color: black;
+     margin-top: 8px;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     color: #fff;
+     align-items: center;
+ }
+ .mail-2{
+    
+     
+     
+     
+    display: flex;
+    
+   justify-content: center;
+   width: 600px;
+   padding-top: 10px;
+
+    
+    
+}
+
+.mail-2 input{
+   flex: 1;
+   max-width: 300px;
+   border-color: rgb(128, 123, 123);
+   color: #fff;
+   border-style: solid;
+   border-radius: 4px;
+   padding: 20px;
+    margin-right: 10px;
+    background-color:transparent;
+    
+    
+   
+    
+}
+
+.email-button-2{
+    
+    background-color: #e50914;
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    padding: 6px 40px;
+    border-radius: 10px;
+    border:0;
+    
+}
+ 
+ .main-text{
+     color: #fff;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-size: 49px;
+     margin-top: 72px;
+ }
+ 
+ .list{
+     margin-top: 35px;
+ }
+ 
+ .one{
+     background-color: #303030;
+     border: rgb(0, 0, 0) solid 5px;
+     font-family: Arial, Helvetica, sans-serif;
+     height: 75px;
+     width: 810px;
+     font-size: 25px;
+     justify-content: space-between;
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ .text-10{
+     margin: revert;
+     margin-left: 35px;
+ }
+ 
+ .text-11{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 19px;
+     margin-top: 65px;
+ }
+ .text-13{
+     font-family: Arial, Helvetica, sans-serif;
+     color: #f78809;    
+     margin-left: -530px;
+     margin-top: 7px;
+     font-size: 14px;
+ }
+ 
+ .footer{ 
+     width: 100%;
+     height: 390px;
+     border-top: 10px;
+     background-color: black;
+     margin-top: 8px;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     color: rgb(141, 140, 140);
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .final{
+     margin-left: 230px;
+     margin-top: 75px;
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ .text-14{
+     margin-top: 5px;
+ }
+ 
+ .text-15{
+     margin-top: 25px;
+     font-size: 12px;
+ }
+ 
+ .footer-column-2{
+ margin-top: 46px;
+ margin-left: -260px;
+ 
+ }
+ 
+ .text-16{
+     margin-left: 230px;
+     margin-top: 22px;
+     font-size: 12px;
+ }
+ 
+ .footer-column-3{
+     margin-top: 46px;
+ }
+ 
+ .text-17{
+     margin-left: 120px;
+     margin-top: 22px;
+     font-size: 12px;
+ }
+ 
+ .footer-column-4{
+     margin-top: 46px;
+     margin-left: 115px;
+ }
+ 
+ .text-18{
+     margin-top: 22px;
+     font-size: 12px;
+ }
+ 
